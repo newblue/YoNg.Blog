@@ -87,6 +87,41 @@
 
 
 <div class="post">
+  <h3 class="title"><a href="http://newblue.github.io/YoNg.Blog/YoNg/YoNg%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE/">YoNg的编辑器设置</a> <span class="date">2013-12-10 10:59:18</span></h3>
+
+  <p>写博客的时候，如果可以在<code>yong post 我喜欢的编辑器叫VIM</code>之后自动打开
+自己喜欢的VIM编辑器进行编辑的话，会方便很多。</p>
+
+<p>在config.yml文件里面设置好<code>editor:</code>，指定好你的编辑器，例如我设置为
+<code>vim</code>，<code>YoNg</code>就会在<code>yong post</code>的时候主动提示是否打开编辑器进行编辑，
+只要在我的<code>$PATH</code>里面能找到<code>vim</code>就能正确打开编辑器和编辑内容。</p>
+
+<p>如本篇日志就是通过这种方式打开编辑的，默认情况下，<code>editor:</code>为空，<code>YoNg</code>
+在默认情况下，会获取<code>$EDITOR</code>这个环境变量，如果能找到，并且不为空的话，
+会调用该设置，进行对应操作。</p>
+
+<p>这是<code>gor</code>在我写下本篇的时候还无法提供的，也是我需要的功能，所以我把
+它实现进<code>YoNg</code>里面。喜欢你喜欢。</p>
+
+
+  <div class="more">
+    <a href="http://newblue.github.io/YoNg.Blog/YoNg/YoNg%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE/" class="btn">更多内容</a>
+  </div>
+</div>
+
+<div class="post">
+  <h3 class="title"><a href="http://newblue.github.io/YoNg.Blog/YoNg-%E6%8A%93%E8%99%AB%E8%AE%B0/YoNg20131210%E5%8F%91%E7%8E%B0%E6%96%B0%E8%99%AB%E5%AD%90/">YoNg20131210发现新虫子</a> <span class="date">2013-12-10 09:01:01</span></h3>
+
+  <p>今天一起床，用<code>yong compile</code> 了一下本博客，居然有越界的虫子，
+用<code>golang</code>写代码真方便，出错了，在哪个地方发生的，都提示到了。</p>
+
+
+  <div class="more">
+    <a href="http://newblue.github.io/YoNg.Blog/YoNg-%E6%8A%93%E8%99%AB%E8%AE%B0/YoNg20131210%E5%8F%91%E7%8E%B0%E6%96%B0%E8%99%AB%E5%AD%90/" class="btn">更多内容</a>
+  </div>
+</div>
+
+<div class="post">
   <h3 class="title"><a href="http://newblue.github.io/YoNg.Blog/first/">关于YoNg</a> <span class="date">2013-12-07</span></h3>
 
   <strong>欢迎使用<code>YoNg</code></strong>
